@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  docker_tutorial:
+    build: .
+    volumes:
+      - .:/home/mpeter/Docker_Tutorial
+    ports:
+      - 5000:80
